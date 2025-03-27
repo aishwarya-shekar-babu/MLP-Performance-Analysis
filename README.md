@@ -1,4 +1,4 @@
-# MLP Performance Analysis for Credit Risk Prediction
+# Examining Multi-Layer Perceptron Performance: Effects of Depth, Width, and Hyperparameter Optimization on the German Credit Card Dataset
 
 ## Overview
 This project analyzes the performance of a **Multi-Layer Perceptron (MLP)** model for **credit risk prediction**. The dataset used contains information on financial transactions, customer profiles, and loan repayment history, which helps determine the likelihood of loan default and also analyse the width and depth impact on the MLP model performance
