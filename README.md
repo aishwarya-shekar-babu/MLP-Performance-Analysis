@@ -61,7 +61,7 @@ pip install tensorflow scikit-learn pandas matplotlib numpy seaborn
    ```bash
    cd mlp-credit-risk
    ```
-3. Run in the google collab [Runtime used-CPU]
+3. Run in the google collab [Runtime used-CPU]  and also please download dataset from github to execute
 
 ## Results & Findings
 - The MLP model achieved **higher ROC/AUC** compared to traditional classifiers, making it suitable for imbalanced credit risk prediction tasks.
