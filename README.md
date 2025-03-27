@@ -21,7 +21,7 @@ To develop and evaluate an MLP-based model to predict credit risk and compare it
    - Comparing with baseline models (Logistic Regression, Random Forest, etc.)
    - Performance metrics: **Accuracy, Precision, Recall, F1-score, AUC-ROC**
 3. **Hyperparameter Tuning**
-   - Optimizing MLP architecture using **GridSearchCV / RandomizedSearchCV**
+   - Optimizing MLP architecture using dropout and regularisation 
 4. **Results & Interpretation**
    - Visualization of evaluation metrics
    - Model performance comparison
@@ -37,7 +37,7 @@ To develop and evaluate an MLP-based model to predict credit risk and compare it
 - **Confusion Matrix**
 - **ROC Curve & AUC Score**
 - **Precision-Recall Curve**
-- **Comparison with Traditional Models**
+- **Comparision with Not hypertuned model**
 
 ## Installation & Requirements
 ### Prerequisites:
@@ -64,12 +64,8 @@ pip install tensorflow scikit-learn pandas matplotlib numpy seaborn
 3. Run in the google collab [Runtime used-CPU]
 
 ## Results & Findings
-- The MLP model achieved **higher recall** compared to traditional classifiers, making it suitable for imbalanced credit risk prediction tasks.
+- The MLP model achieved **higher ROC/AUC** compared to traditional classifiers, making it suitable for imbalanced credit risk prediction tasks.
 - Feature importance analysis provided insights into key factors influencing loan defaults.
-
-
-## Author
-[Your Name](https://github.com/your-username)
 
 ## License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
