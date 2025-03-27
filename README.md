@@ -1,11 +1,11 @@
 # MLP Performance Analysis for Credit Risk Prediction
 
 ## Overview
-This project analyzes the performance of a **Multi-Layer Perceptron (MLP)** model for **credit risk prediction**. The dataset used contains information on financial transactions, customer profiles, and loan repayment history, which helps determine the likelihood of loan default.
+This project analyzes the performance of a **Multi-Layer Perceptron (MLP)** model for **credit risk prediction**. The dataset used contains information on financial transactions, customer profiles, and loan repayment history, which helps determine the likelihood of loan default and also analyse the width and depth impact on the MLP model performance
 
 ## Dataset
 - The dataset consists of **numerical and categorical features** representing customer financial behavior.
-- Target variable: **Credit Risk (Default or Non-Default)**
+- Target variable: **Credit Risk (Good or Bad)**
 - Data Preprocessing: **Feature Engineering, Normalization, Handling Missing Values**
 
 ## Objective
