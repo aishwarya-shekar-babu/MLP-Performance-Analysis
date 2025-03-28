@@ -55,11 +55,11 @@ pip install tensorflow scikit-learn pandas matplotlib numpy seaborn
 ## Running the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mlp-credit-risk.git
+   git clone https://github.com/aishwarya-shekar-babu/MLP-Performance-Analysis.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd mlp-credit-risk
+   cd MLP-Performance-Analysis
    ```
 3. Run in the google collab [Runtime used-CPU]  and also please download dataset from github to execute
 
